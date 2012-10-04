@@ -21,6 +21,8 @@
 {
 		//NSFileManager *fileManager = [NSFileManager defaultManager];
 	
+	
+	
 	NSString *imageDir = [NSString stringWithFormat:@"%@/Library", NSHomeDirectory()];
 	
 	NSLog(@"size:%f\n",[Util folderSizeAtPath3:imageDir]/1024.0/1024);
